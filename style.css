@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.background {
+    background-image: linear-gradient( rgba(120, 186, 240, 0.5), rgba(255, 255, 255, 0)), url(./images/horse-race-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+}
+
+.clouds {
+    position: relative;
+}
+
+.cloud_one img {
+    width: 400px;
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+.cloud_two img {
+    width: 300px;
+    position: absolute;
+    top: 0;
+    left: 400px;
+}
+
+.cloud_three img {
+    width: 400px;
+    position: absolute;
+    top: 0;
+    left: 700px;
+}
+
+.cloud_four img {
+    width: 300px;
+    position: absolute;
+    top: 0;
+    left: 1000px;
+}
+
+.horse_container {
+    position: relative;
+}
+
+.horse {
+    width: 500px;
+    position: absolute;
+    bottom: 0;
+}
